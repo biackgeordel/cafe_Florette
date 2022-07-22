@@ -29,6 +29,10 @@ li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.m-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 p {
   margin-bottom: 10px;
 }
@@ -38,14 +42,25 @@ p {
   font-weight: 700;
   padding: 15px 25px;
   font-size: 14px;
+  border: 0px;
+  cursor: pointer;
 }
 .btn-primary {
   background: white;
   color: #444;
 }
+.btn-dark {
+  background: #444;
+  color: white;
+}
 .btn-primary:hover {
   background: #444;
   color: white;
+}
+.btn-dark:hover {
+  background: white;
+  color: #444;
+  border: 1px solid #444;
 }
 /* header */
 .header {
@@ -132,5 +147,25 @@ p {
   overflow: auto;
   text-align: center;
   padding: 50px 10px;
-  color: #444;
+  color: #222;
+}
+/* person */
+.person {
+  height: 400px;
+  background: url("./images/cafe3.jpg") center center / cover;
+}
+/* reservation */
+.reservation {
+  padding: 100px 0px 100px 0px;
+  text-align: center;
+}
+/* footer */
+footer {
+  background: #222;
+  text-align: center;
+  color: white;
+  padding: 30px 0px 30px 0px;
+}
+footer p {
+  margin-bottom: 0;
 }
