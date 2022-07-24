@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./contact.css" />
+    <link rel="stylesheet" href="./where.css" />
     <title>Contact | Florette</title>
   </head>
   <body>
@@ -26,26 +27,22 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <h1 class="m-40">Formulaire de contact</h1>
-        <form action="">
-          <div class="element-form m-20">
-            <label for="nom">Nom: </label
-            ><input type="text" name="nom" id="nom" />
-          </div>
-          <div class="element-form m-40">
-            <label for="prenom">Prenom: </label
-            ><input type="text" name="" id="prenom" />
-          </div>
-          <div class="element-form m-40">
-            <label for="password">Password: </label
-            ><input type="text" name="password" id="password" />
-          </div>
-          <div class="element-form m-40">
-            <button type="submit" class="btn btn-dark">Envoyer</button>
-          </div>
-        </form>
-      </div>
+      <section class="contact">
+        <div class="contact-form-container">
+          <form action="#">
+            <h1 class="underline-titre">Une questions ? contactez-nous</h1>
+            <label class="m-20" for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" />
+            <label class="m-20" for="prenom">Prenom</label
+            ><input type="text" name="prenom" id="prenom" />
+            <label class="m-20" for="email">Email</label
+            ><input type="email" name="email" id="email" />
+            <label class="m-20" for="question">Question et remarques</label
+            ><textarea name="question" id="question"></textarea>
+            <button type="submit" class="btn btn-dark m-20">SOUMETTRE</button>
+          </form>
+        </div>
+      </section>
     </main>
     <footer>
       <p>Copyright &#9400; Florette-2022</p>
