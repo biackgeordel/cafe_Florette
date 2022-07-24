@@ -4,7 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>Contact | Florette</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav>
+        <h1><a href="./index.html">CAFE FLORETTE</a></h1>
+        <ul>
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./where.html">Nous trouver</a></li>
+          <li><a href="./contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="m-40">Formulaire de contact</h1>
+        <form action="">
+          <div class="element-form m-20">
+            <label for="nom">Nom: </label
+            ><input type="text" name="nom" id="nom" />
+          </div>
+          <div class="element-form m-40">
+            <label for="prenom">Prenom: </label
+            ><input type="text" name="" id="prenom" />
+          </div>
+          <div class="element-form m-40">
+            <label for="password">Password: </label
+            ><input type="text" name="password" id="password" />
+          </div>
+          <div class="element-form m-40">
+            <button type="submit" class="btn btn-dark">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &#9400; Florette-2022</p>
+    </footer>
+  </body>
 </html>
