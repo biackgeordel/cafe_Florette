@@ -96,7 +96,7 @@ p {
   float: left;
 }
 .vp {
-  height: 700px;
+  min-height: 700px;
   background: url("./images/cafe1.jpg") center center;
   background-size: cover;
 }
@@ -172,9 +172,4 @@ footer {
 }
 footer p {
   margin-bottom: 0;
-}
-@media screen and (max-width: 950px) {
-  .container {
-    max-width: 100%;
-  }
 }

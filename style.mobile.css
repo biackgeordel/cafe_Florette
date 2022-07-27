@@ -1,0 +1,56 @@
+.header nav ul {
+  float: none;
+}
+.header nav h1 {
+  float: none;
+}
+.header nav ul li {
+  float: none;
+}
+.header > nav > h1 {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+.vp {
+  min-height: inherit;
+}
+.vp-container {
+  max-width: 100%;
+  padding: 0.5rem;
+  padding-top: 5rem;
+}
+.vp-container h1 {
+  font-size: 1.5rem;
+}
+.vp-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.features {
+  padding: 2rem 1.2rem;
+}
+.feature {
+  max-width: 100%;
+}
+.where-img {
+  float: none;
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 60vw;
+}
+.where {
+  padding: 2rem 0rem 2rem 0rem;
+}
+.container {
+  max-width: 100%;
+}
+.where-text {
+  float: none;
+  width: 100%;
+  padding: 2rem 1rem 0rem;
+}
+.contact-form-container {
+  width: 90%;
+}
